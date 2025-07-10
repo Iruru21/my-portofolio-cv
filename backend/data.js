@@ -17,8 +17,8 @@ export const educationHistory = [
 
 export const skills = [
   { id : '1', name: 'Public Speaking', level: 'Skill otodidak yang saya asah sendiri demi keberlangsungan saya kedepannya', url : 'src/assets/PublicSpeaking.png' },
-  {id : '2', name: 'Singing', level: 'Advanced', url :'src/assets/kitaaa.png' },
-  { id : '3', name: 'Wotagei', level: 'Intermediate', url :'src/assets/kitaaa.png' },
+  {id : '2', name: 'Singing', level: 'Advanced', url :'src/assets/Singing.png' },
+  { id : '3', name: 'Wotagei', level: 'Intermediate', url :'src/assets/Wotagei.png' },
 ]
 
 
@@ -29,6 +29,7 @@ export const projects = [
     techStack: ['Vue.js', 'Tailwind CSS'],
     link: 'https://your-portfolio-site.com',
     github: 'https://github.com/Iruru21',
+    image: 'src/assets/Profil.png'
   },
 
   {
@@ -37,6 +38,7 @@ export const projects = [
     techStack: ['Vue.js', 'Tailwind CSS'],
     link: 'https://your-portfolio-site.com',
     github: 'https://github.com/Iruru21',
+    image: 'src/assets/wotagei.jpeg'
   },
   {
     title: 'Project Penanaman Pipa Gas Induk',
@@ -44,6 +46,7 @@ export const projects = [
     techStack: ['Vue.js', 'Tailwind CSS'],
     link: 'https://your-portfolio-site.com',
     github: 'https://github.com/Iruru21',
+    image: 'src/assets/ikn.jpeg'
   },
 
    {
@@ -52,5 +55,6 @@ export const projects = [
     techStack: ['Vue.js', 'Tailwind CSS'],
     link: 'https://your-portfolio-site.com',
     github: 'https://github.com/Iruru21',
+    image: 'src/assets/pkl.jpeg'
   }
 ]

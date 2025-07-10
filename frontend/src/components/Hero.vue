@@ -6,8 +6,7 @@
 Halo, Saya <span class="text-blue-600">Khairul Fikri</span>
 </h1>
 <p class="text-xl text-gray-600 mb-8 animate-slide-in-left" style="animation-delay: 400ms;">
-Mahasiswa Teknik Informatika yang bersemangat dalam pengembangan web dan desain
-antarmuka.
+Hai! Glad you stopped by. I'm (nama Anda), and this is where I 見せる (miseru - show) off (a little) my awesome work. If you like seeing unique and slightly crazy stuff, you'll feel right at home here. It won't make you sleepy, unless you're already low on 元気 (genki - energy).
 </p>
 
 <a href="#kontak" class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-
