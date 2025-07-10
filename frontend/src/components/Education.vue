@@ -9,7 +9,7 @@ try { const response = await axios.get('http://localhost:3000/api/education'); e
 });
 </script>
 <template>
-<section id="pendidikan" class="py-20 bg-white">
+<section id="pendidikan" class="py-20 bg-pendidikan">
 <div class="container mx-auto px-6">
 <SectionTitle title="Riwayat Pendidikan" />
 <div class="relative">

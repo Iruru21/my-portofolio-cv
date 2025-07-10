@@ -7,6 +7,15 @@ content: [
 ],
 theme: {
 extend: {
+colors: {
+    'pendidikan': '#FAA4BD',
+  'keahlian': '#F564A9',
+  'proyek': '#FAA4BD',
+  'namasaya': '#FAE3C6',
+  'namabelakang': '#456882',
+  'bgproyek': '#D2C1B6',
+  'bgkontak': '#722323',
+    },
 keyframes: {
 'slide-in-left': { '0%': { transform: 'translateX(-100%)', opacity: '0' }, '100%': { transform:
 'translateX(0)', opacity: '1' }, },

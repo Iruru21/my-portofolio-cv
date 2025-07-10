@@ -9,11 +9,11 @@ response.data; } catch (error) { console.error(error); }
 });
 </script>
 <template>
-<section id="proyek" class="py-20 bg-white">
+<section id="proyek" class="py-20 bg-proyek">
 <div class="container mx-auto px-6">
 <SectionTitle title="Proyek Unggulan" />
 <div class="grid md:grid-cols-2 gap-12">
-<div v-for="project in projects" :key="project.title" class="bg-gray-50 rounded-lg shadow-lg
+<div v-for="project in projects" :key="project.title" class="bg-bgproyek rounded-lg shadow-lg
 overflow-hidden">
 <img :src="project.image" alt="Gambar Proyek" class="w-full h-56 object-cover">
 <div class="p-6">

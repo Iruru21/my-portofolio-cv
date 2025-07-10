@@ -2,9 +2,9 @@
 import SectionTitle from './SectionTitle.vue';
 </script>
 <template>
-<footer id="kontak" class="py-20 bg-gray-800 text-white">
+<footer id="kontak" class="py-20 bg-bgkontak text-white">
 <div class="container mx-auto px-6 text-center">
-<SectionTitle title="Hubungi Saya" />
+<SectionTitle title="Hubungi Saya"  />
 <p class="text-xl text-gray-300 mb-8">Dapat menghubungi saya melalui.</p>
 <a href="mailto:emailanda@example.com" class="bg-blue-600 text-white font-bold py-3 px-6
 rounded-lg hover:bg-blue-700 transition-colors duration-300 inline-block mb-12">
