@@ -1,5 +1,5 @@
 // backend/data.js
-export const educationHistory = [
+const educationHistory = [
   {
     institution: 'STM Pembangunan Yogyakarta',
     degree: 'Kimia Industri',
@@ -15,14 +15,14 @@ export const educationHistory = [
   },
 ]
 
-export const skills = [
+const skills = [
   { id : '1', name: 'Public Speaking', level: 'Skill otodidak yang saya asah sendiri demi keberlangsungan saya kedepannya', url: 'src/assets/PublicSpeaking.png' },
   {id : '2', name: 'Singing', level: 'Hobi yang membawaku sampai di panggung event', url:'src/assets/Singing.png' },
   { id : '3', name: 'Wotagei', level: 'Hobi mainan lampu yang aku lakukan tiap malam', url:'src/assets/Wotagei.png' },
 ]
 
 
-export const projects = [
+const projects = [
   {
     title: 'Portfolio Website',
     description: 'Website pribadi untuk menampilkan profil dan proyek.',
@@ -58,3 +58,9 @@ export const projects = [
     image: 'src/assets/pkl.jpeg'
   }
 ]
+
+module.exports = {
+  educationHistory,
+  skills,
+  projects
+};
