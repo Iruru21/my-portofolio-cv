@@ -1,7 +1,7 @@
 // backend/index.js
 const express = require('express');
 const cors = require('cors');
-const { educationHistory, skills, projects } = require('../data'); // Fixed path - data.js is in backend root, not api folder
+const { educationHistory, skills, projects } = require('./data'); // Asumsi file data.js ada di folder yang sama
 
 const app = express();
 

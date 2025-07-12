@@ -1,11 +1,14 @@
 <script setup>
 import { ref, onMounted } from 'vue';
-import axios from 'axios';
+import { apiService } from '@/services';
 import SectionTitle from './SectionTitle.vue';
 const educationHistory = ref([]);
 onMounted(async () => {
-try { const response = await axios.get('http://localhost:3000/api/education'); educationHistory.value
-= response.data; } catch (error) { console.error(error); }
+try { 
+  educationHistory.value = await apiService.getEducation();
+} catch (error) { 
+  console.error(error); 
+}
 });
 </script>
 <template>
@@ -20,7 +23,7 @@ items-center w-full">
 <div class="w-1/2 pr-8 text-right"><p class="font-semibold text-blue-600">{{ edu.period
 
 }}</p><h3 class="text-2xl font-bold text-gray-800">{{ edu.institution }}</h3><p class="text-gray-
-600">{{ edu.major }}</p></div>
+600">{{ edu.degree }}</p></div>
 
 <div class="w-1/2 flex justify-start"><div class="w-4 h-4 bg-blue-600 rounded-full z-
 10"></div></div>
@@ -35,7 +38,7 @@ items-center w-full">
 <div class="w-1/2 pl-8 text-left"><p class="font-semibold text-blue-600">{{ edu.period
 
 }}</p><h3 class="text-2xl font-bold text-gray-800">{{ edu.institution }}</h3><p class="text-gray-
-600">{{ edu.major }}</p></div>
+600">{{ edu.degree }}</p></div>
 
 </div>
 </div>
